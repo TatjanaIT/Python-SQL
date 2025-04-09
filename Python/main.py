@@ -6,16 +6,16 @@ from IPython.display import display, HTML
 
 # Конфигурация баз данных
 dbconfig_movies = {
-    'host': '127.0.0.1',
-    'user': 'root',
-    'password': 'Rootpassword1',
-    'database': 'movies'
+    'host': 'localhost', # Ваш хост
+    'user': 'root', # Ваше имя пользователя MySQL
+    'password': 'password',  # Ваш пароль MySQL
+    'database': 'movies'  # Название вашей базы данных
 }
 
 dbconfig_logs = {
-    'host': '127.0.0.1',
+    'host': 'localhost',
     'user': 'root',
-    'password': 'Rootpassword1',
+    'password': 'password',
     'database': 'queries'
 }
 
